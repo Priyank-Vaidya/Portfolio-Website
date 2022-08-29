@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.mainheader{
+    width: 100%;
+    height: 100px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainheader .logo{
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 70px;
+    padding-right: 10px;
+
+}
+
+#myimg{
+    border-radius: 100%;
+    margin-right: 5px;
+}
+
+.mainheader .navbar{
+    width: 450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.mainheader .navbar a{
+    text-decoration: none;
+    color: cadetblue;
+    text-transform: lowercase;
+    
+}
+.mainheader .navbar a:hover{
+    color: rgb(21, 123, 89);
+
+}
+main{
+    width: 100%;
+
+    display:grid;
+    justify-content: space-between;
+    align-items: center;
+}
+main .mid-sec{
+    margin-top: 100px;
+    margin-left: 50px;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+}
+
+main .social-media #smtag-twitter:hover{
+        color: rgb(0, 89, 255);
+}
+
+
+
+
